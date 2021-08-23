@@ -1,0 +1,50 @@
+* {
+    box-sizing: inherit;
+}
+
+:root {
+    --currentcolor: #ff385c;
+    --text-color: #222222;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: var(--text-color);
+}
+
+.container {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+button {
+    background-color: none;
+}
+
+.shadow-hover {
+    cursor: pointer;
+    transition: box-shadow 0.1s ease-in;
+}
+.shadow-hover:hover {
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
+}
+/* .shadow-hover::after {
+    content: "";
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.06);
+    opacity: 0;
+    transition: box-shadow 0.1s ease-in;
+}
+.shadow-hover:hover::after {
+    opacity: 1;
+} */
+
+.radius-hover:hover {
+    background-color: #f7f7f7;
+    border-radius: 25px;
+}
